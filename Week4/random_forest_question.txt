@@ -1,0 +1,6 @@
+Task 0: Tại sao không sử dụng toàn bộ tập train để huấn luyện cho các decision tree trong random forest mà phải chia ra từng tập con để train?
+Trả lời:
+- Mục đích của random forest là tạo nhiều decision trees, sau đó dựa vào voting kết quả của các trees để ra kết luận cuối cùng. Nếu sử dụng toàn bộ data để train cho tất cả các trees thì 
+chúng đều cho ra kết quả giống hệt nhau, vậy chẳng khác gì train 1 decision tree.
+- Tạo nhiều subset của tập training data để tạo ra tính randomness trong cấu trúc của từng tree, để mỗi tree là một bộ classifier độc lập với nhau. Như vậy thì kết quả voting cuối cùng
+mới có ý nghĩa.  
