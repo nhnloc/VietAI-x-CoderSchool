@@ -1,0 +1,5 @@
+Kết luận: 
+- Phần lớn khách hàng có trình độ học vấn là Graduation (51.5%). Khách hàng có trình độ Basic chiếm tỉ trọng ít nhất (1.4%)
+- Khách hàng sinh sau 1960 và có mức lương trên $50000 chiếm 41.16% tổng số lượng khách hàng.
+- Khách hàng thuộc trình độ học vấn PhD có thu nhập cao nhất. 
+- Nên tập trung vào tệp khách hàng có trình độ học vấn cao. 
