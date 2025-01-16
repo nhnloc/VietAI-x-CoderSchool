@@ -14,7 +14,7 @@ def softmax(x):
     # TODO Implement softmax function here
     x_max = torch.max(x)  # Find the maximum value in x
     exp_x = torch.exp(x - x_max)  # Subtract max from each element before exponentiating
-    return exp_x / exp_x.sum()
+    return exp_x / (exp_x.sum() + 0.000001)
     # return result
 
 
